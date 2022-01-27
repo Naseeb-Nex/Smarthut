@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "SmartHut",
+    "slug": "SmartHut",
+    "version": "1.1.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/icons/applogo1.png",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/icons/applogo1.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.SmartHut.expoejected"
+    },
+    "web": {
+      "favicon": "./src/assets/favicon.png"
+    }
+  }
+}
